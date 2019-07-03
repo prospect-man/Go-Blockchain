@@ -11,3 +11,6 @@ type block struct {
 	CurrHash   			// Current hash
 
 }
+  func calculateHash() {
+    return SHA256(index + Timestamp + Data + PrevHash + Nonce
+  }
