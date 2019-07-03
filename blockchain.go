@@ -7,7 +7,7 @@ type block struct {
 	Data      		    // The data we want to store
 	PrevHash   		    // chain/hash of previous block
 	Nonce     	    	// String that needs to be mined
-	hash    			//calcul Hash     	    	
+	CalclHash    			//calcul Hash     	    	
 	CurrHash   			// Current hash
 
 }
