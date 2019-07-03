@@ -1,12 +1,19 @@
-package main
+package blockchain
 
 import (
+	
 	"bytes"
+	"container/list"
+	"crypto/ecdsa"
+	"crypto/elliptic"
+	"crypto/rand"
 	"crypto/sha256"
-	"fmt"
-	"net/http"
-	"net/url"
-	"strconv"
+	"crypto/x509"
+	"encoding/binary"
+	"encoding/hex"
+	"errors"
+	"math/big"
+	"strings"
 	"time"
 )
 
