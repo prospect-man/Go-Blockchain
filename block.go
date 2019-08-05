@@ -57,3 +57,5 @@ func hash(d Block) string {
 	hashStr := string(hash[:])
 	return hashStr
 }
+
+//learn to build the blockchain from scratch using Go language
