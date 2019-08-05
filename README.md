@@ -1,3 +1,3 @@
 # Go-Blockchain
-Learn How to Build Blockchain From Scratch Using Go Language
-this files are  my first steps to build a blockchain using go language
+Go-Blockchain is my first steps to learn how to build Blockchain from scratch using Go Language.
+And in the same time learn Go lanuguage.
